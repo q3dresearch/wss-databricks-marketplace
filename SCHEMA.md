@@ -26,7 +26,7 @@ series_id, entity_id, observed_at, captured_at, metric, value, unit, source_id, 
 
 | metric | series | rows | entities | type | unit | distinct | range / samples |
 | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| `is_sample` | databricks.marketplace.listings | 1,291 | 1291 | text |  | 1 | `true` |
+| `is_sample` | databricks.marketplace.listings | 1,329 | 1329 | text |  | 1 | `true` |
 | `listed` | databricks.marketplace.listings | 2,211 | 2211 | bool | count | 1 | `1` |
 | `listing_name` | databricks.marketplace.listings | 2,211 | 2211 | text |  | 2193 | `APISCRAPY_-SAMPLE-Amazon`, `APISCRAPY_-SAMPLE-B2B-Ma`, `APISCRAPY_-SAMPLE-Best-W` |
 | `vendor` | databricks.marketplace.listings | 2,211 | 2211 | text |  | 226 | `APISCRAPY`, `AWIS-Weather-Services`, `AccuWeather` |

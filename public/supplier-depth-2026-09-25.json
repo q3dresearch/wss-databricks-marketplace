@@ -1,0 +1,99 @@
+{
+ "measured": "2026-09-25",
+ "listings": 2211,
+ "samples": 1329,
+ "real": 882,
+ "depth": [
+  {
+   "subject": "Unclassified",
+   "real": 337,
+   "vendors": 90,
+   "top1_pct": 18.4,
+   "top_vendor": "John-Snow-Labs"
+  },
+  {
+   "subject": "Health & life science",
+   "real": 209,
+   "vendors": 24,
+   "top1_pct": 76.1,
+   "top_vendor": "John-Snow-Labs"
+  },
+  {
+   "subject": "Consumer & identity",
+   "real": 97,
+   "vendors": 23,
+   "top1_pct": 59.8,
+   "top_vendor": "Geolocet-LTD"
+  },
+  {
+   "subject": "Web & technology",
+   "real": 48,
+   "vendors": 15,
+   "top1_pct": 54.2,
+   "top_vendor": "Databricks"
+  },
+  {
+   "subject": "Financial & market",
+   "real": 47,
+   "vendors": 23,
+   "top1_pct": 23.4,
+   "top_vendor": "Rearc"
+  },
+  {
+   "subject": "Business & firmographic",
+   "real": 30,
+   "vendors": 15,
+   "top1_pct": 16.7,
+   "top_vendor": "Exchange-Data-International"
+  },
+  {
+   "subject": "Location & mobility",
+   "real": 28,
+   "vendors": 12,
+   "top1_pct": 32.1,
+   "top_vendor": "Geolocet-LTD"
+  },
+  {
+   "subject": "Weather & environment",
+   "real": 23,
+   "vendors": 10,
+   "top1_pct": 26.1,
+   "top_vendor": "S-P-Global-Commodity-Insights"
+  },
+  {
+   "subject": "Real estate & property",
+   "real": 20,
+   "vendors": 5,
+   "top1_pct": 50.0,
+   "top_vendor": "CoreLogic"
+  },
+  {
+   "subject": "Retail & product",
+   "real": 17,
+   "vendors": 11,
+   "top1_pct": 23.5,
+   "top_vendor": "Crisp-Inc-"
+  },
+  {
+   "subject": "Social & creator",
+   "real": 15,
+   "vendors": 3,
+   "top1_pct": 73.3,
+   "top_vendor": "Bright-Data"
+  },
+  {
+   "subject": "Automotive",
+   "real": 8,
+   "vendors": 5,
+   "top1_pct": 37.5,
+   "top_vendor": "Rearc"
+  },
+  {
+   "subject": "News & media",
+   "real": 3,
+   "vendors": 3,
+   "top1_pct": 33.3,
+   "top_vendor": "FiscalNote"
+  }
+ ]
+}

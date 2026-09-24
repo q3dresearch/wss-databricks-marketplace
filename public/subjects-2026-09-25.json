@@ -1,34 +1,34 @@
 {
  "total": 2211,
- "real": 920,
+ "real": 882,
  "categories": [
   {
    "name": "Unclassified",
-   "n": 494,
-   "share": 22.3,
-   "sample_pct": 34.0,
-   "real": 326
+   "n": 523,
+   "share": 23.7,
+   "sample_pct": 35.6,
+   "real": 337
   },
   {
    "name": "Business & firmographic",
-   "n": 329,
-   "share": 14.9,
-   "sample_pct": 90.9,
+   "n": 334,
+   "share": 15.1,
+   "sample_pct": 91.0,
    "real": 30
   },
   {
    "name": "Consumer & identity",
-   "n": 296,
-   "share": 13.4,
-   "sample_pct": 67.6,
-   "real": 96
+   "n": 308,
+   "share": 13.9,
+   "sample_pct": 68.5,
+   "real": 97
   },
   {
    "name": "Location & mobility",
-   "n": 280,
+   "n": 281,
    "share": 12.7,
-   "sample_pct": 81.8,
-   "real": 51
+   "sample_pct": 90.0,
+   "real": 28
   },
   {
    "name": "Health & life science",
@@ -38,25 +38,18 @@
    "real": 209
   },
   {
-   "name": "Financial & market",
-   "n": 146,
-   "share": 6.6,
-   "sample_pct": 50.0,
-   "real": 73
-  },
-  {
    "name": "Web & technology",
-   "n": 119,
-   "share": 5.4,
-   "sample_pct": 62.2,
-   "real": 45
+   "n": 129,
+   "share": 5.8,
+   "sample_pct": 62.8,
+   "real": 48
   },
   {
-   "name": "Real estate & property",
-   "n": 90,
-   "share": 4.1,
-   "sample_pct": 70.0,
-   "real": 27
+   "name": "Financial & market",
+   "n": 114,
+   "share": 5.2,
+   "sample_pct": 58.8,
+   "real": 47
   },
   {
    "name": "Social & creator",
@@ -64,6 +57,13 @@
    "share": 3.4,
    "sample_pct": 80.0,
    "real": 15
+  },
+  {
+   "name": "Real estate & property",
+   "n": 63,
+   "share": 2.8,
+   "sample_pct": 68.3,
+   "real": 20
   },
   {
    "name": "Automotive",
@@ -74,16 +74,16 @@
   },
   {
    "name": "Weather & environment",
-   "n": 35,
-   "share": 1.6,
-   "sample_pct": 42.9,
-   "real": 20
+   "n": 38,
+   "share": 1.7,
+   "sample_pct": 39.5,
+   "real": 23
   },
   {
    "name": "Retail & product",
-   "n": 30,
-   "share": 1.4,
-   "sample_pct": 43.3,
+   "n": 29,
+   "share": 1.3,
+   "sample_pct": 41.4,
    "real": 17
   },
   {
@@ -143,5 +143,6 @@
    "name": "Weather & environment",
    "pattern": "weather|climate|environment|emission|carbon|pollut|energy|solar|wind|water|agricult|crop|satellite"
   }
- ]
+ ],
+ "note": "sample rule corrected 2026-09-25: trailing '-Sample' now counted (+38). Prior files said samples=1291 real=920."
 }

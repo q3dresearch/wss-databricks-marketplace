@@ -22,9 +22,15 @@ delisted, and no archive.
 
 ![58% of the Databricks Marketplace is sample data, not products](examples/charts/composition.svg)
 
-**Most of this marketplace is not products.** 1,291 of 2,211 listings are
-samples — trial datasets Databricks marks with `SAMPLE` in the name. **Quote 920,
+**Most of this marketplace is not products.** 1,329 of 2,211 listings are
+samples — trial datasets Databricks marks with `SAMPLE` in the name. **Quote 882,
 not 2,211.**
+
+Databricks places that marker three ways and the trailing one is easy to miss:
+`-SAMPLE-` infix, a `SAMPLE` prefix, and a trailing `-Sample`. Testing only the
+first two — which this repo did until 2026-09-25 — misses 38 listings from
+Vaisala, Precisely, Foursquare, AccuWeather, CoreLogic and Shutterstock, and
+every one of them inflates the real-product base a buyer is quoted.
 
 And the split is not uniform. The two largest vendors are opposites:
 **Techsalerator's 246 listings are 98% samples; John-Snow-Labs' 241 are 0%.**
@@ -95,7 +101,8 @@ weekly capture is for.
 
 | # | Question | Status |
 | --- | --- | --- |
-| Q1 | What is this marketplace actually made of? | **answered** — 58.4% samples, 920 real products, 226 vendors |
+| Q1 | What is this marketplace actually made of? | **answered** — 60.1% samples, 882 real products, 226 vendors |
+| Q8 | If I need category X, how many vendors can actually sell it to me? | **answered** — see `public/supplier-depth`. Listing count and supplier depth rank almost oppositely: Health has 209 real products but 76.1% come from one vendor; Business & firmographic has 30 across 15 vendors, top one at 16.7% |
 | Q2 | Which data products are withdrawn, and when? | needs 2+ captures. **The reason for capturing** |
 | Q3 | Do samples convert to products, or just churn? | open — a sample becoming a product is a name change, so it will look like one death and one birth |
 | Q4 | Do whole vendors exit? | open — vendor is free from the URL, so this is answerable from two captures |

@@ -58,7 +58,14 @@ def parse(body: bytes, ctx: derive.ParseContext):
                                      value=name.split("_", 1)[0])
         # Databricks marks trial/sample products in the name itself. It is the
         # only product attribute available anywhere, so it is emitted.
-        if "-SAMPLE-" in name.upper() or name.upper().startswith("SAMPLE"):
+        # Three placements, all seen in the wild: "-SAMPLE-" infix, a "SAMPLE"
+        # prefix, and a trailing "-Sample". The trailing form was missed until
+        # 2026-09-25 and cost 38 listings -- Vaisala, Precisely, Foursquare,
+        # AccuWeather, CoreLogic and Shutterstock's "Free-Sample-Dataset" all
+        # land there. Missing it OVERSTATES the real-product base, which is the
+        # one number a buyer actually uses, so it is tested for explicitly.
+        upper = name.upper()
+        if "-SAMPLE-" in upper or upper.startswith("SAMPLE") or upper.endswith("-SAMPLE"):
             yield derive.Observation(entity_id=uuid, metric="is_sample", value="true")
 
 
