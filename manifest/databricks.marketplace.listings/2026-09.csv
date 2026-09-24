@@ -1,0 +1,2 @@
+source_id,url,fetched_at,http_status,content_type,content_length,content_sha256,etag,last_modified,outcome,raw_ref,reason,warnings
+databricks.marketplace.listings,https://marketplace.databricks.com/sitemap.xml,2026-09-24T18:25:34Z,200,application/xml,528095,0fc39729058b1c12ce7a14f1e78eee8c8c2575328d10fb7fe8cdbc6fa4a27985,"""naaHFAHSNg""","Thu, 01 Jan 1970 00:00:00 GMT",first_capture,raw/databricks.marketplace.listings/2026/09/20260924T182534Z-0fc39729058b.xml.gz,,

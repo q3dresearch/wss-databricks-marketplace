@@ -1,0 +1,24 @@
+# Licence of the captured data
+
+**Crawl permission: established. Reuse: not established.**
+
+## Crawling
+
+Checked 2026-09-25 with longest-match evaluation (`wss.robots`).
+`marketplace.databricks.com/robots.txt` permits `/sitemap.xml` and the
+`/details/` listing paths.
+
+## Reuse
+
+**Unaddressed.** No licence statement appears in the sitemap or on the listing
+pages, and Databricks' terms have not been read for a redistribution grant. Do
+not assert one.
+
+What this repository holds is a list of URLs the publisher publishes for search
+engines, plus counts derived from it. There is **no vendor content at all** —
+the listing pages are shells containing no product name, description, schema or
+price, so there is nothing to redistribute even if one wanted to.
+
+## Personal data
+
+None. Listings are corporate data products and vendors are companies.

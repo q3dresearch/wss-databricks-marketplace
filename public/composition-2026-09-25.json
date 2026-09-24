@@ -1,0 +1,112 @@
+{
+ "listings": 2211,
+ "samples": 1291,
+ "vendors": 226,
+ "top": [
+  {
+   "vendor": "Techsalerator",
+   "n": 246,
+   "sample_pct": 98.4
+  },
+  {
+   "vendor": "John-Snow-Labs",
+   "n": 241,
+   "sample_pct": 0.0
+  },
+  {
+   "vendor": "Geolocet-LTD",
+   "n": 74,
+   "sample_pct": 0.0
+  },
+  {
+   "vendor": "Rearc",
+   "n": 67,
+   "sample_pct": 0.0
+  },
+  {
+   "vendor": "Bright-Data",
+   "n": 45,
+   "sample_pct": 0.0
+  },
+  {
+   "vendor": "Solution-Publishing",
+   "n": 41,
+   "sample_pct": 100.0
+  },
+  {
+   "vendor": "Databricks",
+   "n": 39,
+   "sample_pct": 0.0
+  },
+  {
+   "vendor": "CoreLogic",
+   "n": 37,
+   "sample_pct": 2.7
+  },
+  {
+   "vendor": "S-P-Global-Commodity-Insights",
+   "n": 34,
+   "sample_pct": 0.0
+  },
+  {
+   "vendor": "Versium",
+   "n": 31,
+   "sample_pct": 100.0
+  },
+  {
+   "vendor": "BoldData",
+   "n": 30,
+   "sample_pct": 100.0
+  },
+  {
+   "vendor": "Nexdata",
+   "n": 30,
+   "sample_pct": 100.0
+  }
+ ],
+ "solo_vendors": 64,
+ "sample_big": 57.2,
+ "sample_small": 60.0,
+ "n_big": 1284,
+ "n_small": 927,
+ "vendor_sizes": {
+  "31": 1,
+  "18": 3,
+  "246": 1,
+  "241": 1,
+  "4": 18,
+  "15": 1,
+  "25": 1,
+  "23": 2,
+  "28": 1,
+  "8": 8,
+  "20": 3,
+  "2": 28,
+  "30": 2,
+  "13": 5,
+  "7": 9,
+  "27": 1,
+  "26": 1,
+  "12": 2,
+  "67": 1,
+  "1": 64,
+  "11": 5,
+  "22": 4,
+  "37": 1,
+  "14": 3,
+  "6": 13,
+  "24": 2,
+  "9": 7,
+  "41": 1,
+  "17": 3,
+  "74": 1,
+  "16": 2,
+  "5": 10,
+  "10": 4,
+  "3": 13,
+  "34": 1,
+  "39": 1,
+  "21": 1,
+  "45": 1
+ }
+}

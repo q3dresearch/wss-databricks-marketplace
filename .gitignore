@@ -1,0 +1,7 @@
+__pycache__/
+.env
+.env.local
+*.pem
+*.key
+quarantine/
+.venv/

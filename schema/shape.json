@@ -1,0 +1,124 @@
+{
+  "generated_at": "2026-09-24T18:25:37Z",
+  "note": "Inferred from the derived rows by `wss schema`, not hand-written. Regenerate after any derive.",
+  "sources": {
+    "databricks.marketplace.listings": {
+      "source_id": "databricks.marketplace.listings",
+      "schema_id": "dbxlisting.v1",
+      "cadence": "weekly",
+      "licence": "NOT ESTABLISHED (checked 2026-09-25). marketplace.databricks.com permits /sitemap.xml and the listing paths; no licence statement was found and Databricks' terms have not been read for a redistribution grant. The capture is a list of public URLs, not vendor content.",
+      "personal_data": "none",
+      "storage": "git",
+      "publisher": "Databricks",
+      "publisher_tier": "first_party",
+      "endpoints": 1
+    }
+  },
+  "observations": {
+    "rows": 7924,
+    "columns": [
+      "series_id",
+      "entity_id",
+      "observed_at",
+      "captured_at",
+      "metric",
+      "value",
+      "unit",
+      "source_id",
+      "raw_ref",
+      "parser_version"
+    ],
+    "partitions": [
+      "2026-09.csv.gz"
+    ],
+    "series": {
+      "databricks.marketplace.listings": {
+        "rows": 7924,
+        "entities": 2211,
+        "entity_id_samples": [
+          "0006d848-2ebc-488e-8297-55d98d6b7748",
+          "0018ab7d-a6d8-47eb-b3cc-fd4129c2aac4",
+          "001da8f5-69f2-4c7c-a896-9bc337e43b3f"
+        ],
+        "metrics": [
+          "is_sample",
+          "listed",
+          "listing_name",
+          "vendor"
+        ]
+      }
+    },
+    "parser_versions": [
+      "1"
+    ]
+  },
+  "metrics": {
+    "is_sample": {
+      "rows": 1291,
+      "unit": "",
+      "type": "text",
+      "series": [
+        "databricks.marketplace.listings"
+      ],
+      "entities": 1291,
+      "distinct_values": 1,
+      "empty": 0,
+      "samples": [
+        "true"
+      ]
+    },
+    "listed": {
+      "rows": 2211,
+      "unit": "count",
+      "type": "bool",
+      "series": [
+        "databricks.marketplace.listings"
+      ],
+      "entities": 2211,
+      "distinct_values": 1,
+      "empty": 0,
+      "samples": [
+        "1"
+      ]
+    },
+    "listing_name": {
+      "rows": 2211,
+      "unit": "",
+      "type": "text",
+      "series": [
+        "databricks.marketplace.listings"
+      ],
+      "entities": 2211,
+      "distinct_values": 2193,
+      "empty": 0,
+      "samples": [
+        "APISCRAPY_-SAMPLE-Amazon-Data-Ecommerce-Data-Amazon-Product-Data-Amazon-Reviews-Data-No-Infra-",
+        "APISCRAPY_-SAMPLE-B2B-Marketing-Data-G2-Trustpilot-Clutch-Review-Platform-B2B-Datasets-Scrape-all-",
+        "APISCRAPY_-SAMPLE-Best-Web-Scraping-Data-Tool-in-2024-Web-scraping-Data-Web-Scraping-Data-Extraction-"
+      ]
+    },
+    "vendor": {
+      "rows": 2211,
+      "unit": "",
+      "type": "text",
+      "series": [
+        "databricks.marketplace.listings"
+      ],
+      "entities": 2211,
+      "distinct_values": 226,
+      "empty": 0,
+      "samples": [
+        "APISCRAPY",
+        "AWIS-Weather-Services",
+        "AccuWeather"
+      ]
+    }
+  },
+  "raw": {
+    "files": 1,
+    "bytes_on_disk": 118163,
+    "capture_dates": 1,
+    "first_capture": "2026-09-24T18:25:34Z",
+    "last_capture": "2026-09-24T18:25:34Z"
+  }
+}

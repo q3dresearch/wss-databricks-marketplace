@@ -1,0 +1,63 @@
+source_id: databricks.marketplace.listings
+status: active
+cadence: weekly
+schema_id: dbxlisting.v1
+
+publisher: Databricks
+publisher_tier: first_party
+
+# A listing withdrawn from sale simply leaves the sitemap. There is no status
+# meaning delisted and no archive.
+destroys_own_history: true
+
+licence: "NOT ESTABLISHED (checked 2026-09-25). marketplace.databricks.com permits /sitemap.xml and the listing paths; no licence statement was found and Databricks' terms have not been read for a redistribution grant. The capture is a list of public URLs, not vendor content."
+personal_data: none              # vendor data products; no individuals named
+storage: git
+
+notes: >-
+  Every data product listed on the Databricks Marketplace, weekly, from the
+  publisher's own sitemap. 2,211 listings, 516 KB a capture.
+
+  THE URL CARRIES EVERYTHING THE PAGE DOES NOT. A listing is
+  /details/<uuid>/<Vendor>_<Product-Name>, and ALL 2,211 have the name segment
+  -- CoreLogic_Rent-Amount-Model, Intuizi_-SAMPLE-Intuizi-Visitation-Details.
+  So the sitemap alone gives a stable key (the uuid), a product name and a
+  VENDOR, which is more than Snowflake's slug and far more than Salesforce's
+  opaque listingId.
+
+  THIS ROW PREVIOUSLY SAID THE OPPOSITE. It was catalogued as "uuid only, no
+  name in the URL -- a departure is visible, the product is not", and the
+  next_step called for a one-off pass over 2,211 detail pages to resolve names
+  while they were still live. That was wrong and came from generalising a single
+  URL that happened to end in a trailing slash. No name resolution is needed.
+
+  THE DETAIL PAGE IS WORTHLESS, AND UNUSUALLY SO. 58,299 chars with <title>
+  Databricks Marketplace, no og:title, no h1, no meta description and no JSON-LD
+  -- its only embedded JSON is FEATURE FLAGS. Not one field about the product.
+  So there is NO DENOMINATOR anywhere: no downloads, no subscribers, no rating,
+  no date. This is an arrivals-and-departures series and must never be described
+  as a popularity one.
+
+  ONE VENDOR HOLDS 11% OF THE STORE. Splitting the name on its underscore gives
+  385 distinct vendors, and techsalerator alone has 242 of 2,211 listings. Any
+  store-level rate needs that checked first -- a single vendor leaving would move
+  a headline number by ten points and would be a fact about one firm, not the
+  market.
+
+  BACKFILL IS THIN AND THAT IS THE ARGUMENT, NOT THE OBJECTION. Three Internet
+  Archive mementos exist against Snowflake's 46. Nobody is keeping this, so every
+  week unrecorded is gone -- which is the case for capturing rather than against
+  it. Ranking candidates by how much history there is to mine is a larder
+  instinct and it nearly cost this fleet Shopify.
+
+endpoints:
+  - url: "https://marketplace.databricks.com/sitemap.xml"
+    delay_seconds: 2
+    timeout_seconds: 90
+
+gates:
+  expect_status: 200
+  min_bytes: 100000
+  content_type_any: [xml, text]
+  must_contain: ["/details/", "<urlset"]
+  max_shrink_pct: 40
