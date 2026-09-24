@@ -1,0 +1,1132 @@
+[
+ {
+  "vendor": "Techsalerator",
+  "n": 246,
+  "sample_pct": 98.4
+ },
+ {
+  "vendor": "John-Snow-Labs",
+  "n": 241,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Geolocet-LTD",
+  "n": 74,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Rearc",
+  "n": 67,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Bright-Data",
+  "n": 45,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Solution-Publishing",
+  "n": 41,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Databricks",
+  "n": 39,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "CoreLogic",
+  "n": 37,
+  "sample_pct": 2.7
+ },
+ {
+  "vendor": "S-P-Global-Commodity-Insights",
+  "n": 34,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Versium",
+  "n": 31,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "BoldData",
+  "n": 30,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Nexdata",
+  "n": 30,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "APISCRAPY",
+  "n": 28,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "The-Data-Group",
+  "n": 27,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Market-Inside-Data",
+  "n": 26,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Datatorq",
+  "n": 25,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Alesco-Data",
+  "n": 24,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Grepsr",
+  "n": 24,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Coresignal",
+  "n": 23,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Redmob",
+  "n": 23,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Factori",
+  "n": 22,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Echo-Analytics",
+  "n": 22,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Datastream-Group",
+  "n": 22,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Measurable-AI",
+  "n": 22,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Consumer-Edge",
+  "n": 21,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "PredictHQ",
+  "n": 20,
+  "sample_pct": 85.0
+ },
+ {
+  "vendor": "Exchange-Data-International",
+  "n": 20,
+  "sample_pct": 70.0
+ },
+ {
+  "vendor": "BIGDBM",
+  "n": 20,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Deutsche-Boerse-Market-Data-and-Services",
+  "n": 18,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Xverum",
+  "n": 18,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Exellius-Systems",
+  "n": 18,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Forager-ai",
+  "n": 17,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "GapMaps",
+  "n": 17,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Bridge",
+  "n": 17,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "PromptCloud",
+  "n": 16,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Opoint",
+  "n": 16,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Webautomation",
+  "n": 15,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Gravy-Analytics",
+  "n": 14,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "HitHorizons",
+  "n": 14,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Biscred",
+  "n": 14,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "PredictLeads",
+  "n": 13,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "CrawlBee",
+  "n": 13,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Wireless-Guardian-INC-",
+  "n": 13,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Canaria-Inc-",
+  "n": 13,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Intuizi",
+  "n": 13,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "InfoTrie",
+  "n": 12,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Serpstat",
+  "n": 12,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "OptionMetrics",
+  "n": 11,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "GeoPostcodes",
+  "n": 11,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "InMarket",
+  "n": 11,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "SocialSift",
+  "n": 11,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "BatchService",
+  "n": 11,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Vaisala-Oyj",
+  "n": 10,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Epsilon",
+  "n": 10,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "OpenWeb-Ninja",
+  "n": 10,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Trademo",
+  "n": 10,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Point-Topic",
+  "n": 9,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "GIST",
+  "n": 9,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "TagX",
+  "n": 9,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "AWIS-Weather-Services",
+  "n": 9,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Acxiom-LLC",
+  "n": 9,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "AnalyticsIQ",
+  "n": 9,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Morningstar",
+  "n": 9,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Wiza",
+  "n": 8,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Immobiliare-it-Insights",
+  "n": 8,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Soundsnap",
+  "n": 8,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Scorri",
+  "n": 8,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Lead-for-Business",
+  "n": 8,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Wetter-com",
+  "n": 8,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "TriNetX-LLC",
+  "n": 8,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "aterio-io",
+  "n": 8,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Precisely",
+  "n": 7,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "CustomWeather",
+  "n": 7,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "AccuWeather",
+  "n": 7,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Oxari",
+  "n": 7,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Sports-Innovation-Lab",
+  "n": 7,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "CARTO",
+  "n": 7,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Reomnify",
+  "n": 7,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Andrews-Wharton-Inc-",
+  "n": 7,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Cbonds",
+  "n": 7,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "dataRAT",
+  "n": 6,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "LEBA",
+  "n": 6,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "London-Energy-Brokers-Association-LEBA-",
+  "n": 6,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "xavvy",
+  "n": 6,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "STOXX-Ltd",
+  "n": 6,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Predik-Data-driven",
+  "n": 6,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Stirista",
+  "n": 6,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Experian",
+  "n": 6,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Intelligent-Medical-Objects-IMO",
+  "n": 6,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Seller-Directories",
+  "n": 6,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Wrapped-io",
+  "n": 6,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Kythera-Labs-Inc",
+  "n": 6,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "UniCourt",
+  "n": 6,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Crisp-Inc-",
+  "n": 5,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Brain",
+  "n": 5,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Shutterstock",
+  "n": 5,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Vertical-Knowledge",
+  "n": 5,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Zeal-Corporation",
+  "n": 5,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "LexisNexis",
+  "n": 5,
+  "sample_pct": 20.0
+ },
+ {
+  "vendor": "DatosGo",
+  "n": 5,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "DrivenIQ",
+  "n": 5,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "FileMarket",
+  "n": 5,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Alerteenz",
+  "n": 5,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Nimble",
+  "n": 4,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "CTOS-Basis",
+  "n": 4,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Yobi-AI",
+  "n": 4,
+  "sample_pct": 25.0
+ },
+ {
+  "vendor": "Doorda",
+  "n": 4,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Collectors-Data-Store",
+  "n": 4,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Datlab",
+  "n": 4,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "People-Data-Labs",
+  "n": 4,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Equiduct",
+  "n": 4,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Shovels-Inc-",
+  "n": 4,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Definitive-Healthcare",
+  "n": 4,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Taiwan-Economic-Journal",
+  "n": 4,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "QuoteWay",
+  "n": 4,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Weather-Source",
+  "n": 4,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Blinkfire-Analytics-Inc-",
+  "n": 4,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "RS-Metrics",
+  "n": 4,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Dotlas",
+  "n": 4,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Pixta-AI",
+  "n": 4,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "IQVIA",
+  "n": 4,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Amberdata",
+  "n": 3,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Think-Data-Group",
+  "n": 3,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Serif-Health",
+  "n": 3,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "FiscalNote",
+  "n": 3,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Cybba-Inc-",
+  "n": 3,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Gain-Dynamics",
+  "n": 3,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Foursquare",
+  "n": 3,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Bitext-Innovation-International",
+  "n": 3,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "ZoomInfo",
+  "n": 3,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Nasdaq-Inc-",
+  "n": 3,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Deep-Sync",
+  "n": 3,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "RevenueBase",
+  "n": 3,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Claritype-inc-",
+  "n": 3,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "The-GDELT-Project",
+  "n": 2,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "SafeGraph",
+  "n": 2,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Trilliant-Health",
+  "n": 2,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Dataknobs",
+  "n": 2,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "FinThrive-Healthcare",
+  "n": 2,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "T-Mobile-Advertising-Solutions-Data-Services",
+  "n": 2,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Orbital-Insight",
+  "n": 2,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "HealthVerity",
+  "n": 2,
+  "sample_pct": 50.0
+ },
+ {
+  "vendor": "Digital-Intelligence-Lab",
+  "n": 2,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Exponam-Connect",
+  "n": 2,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Sovereign-Intelligence",
+  "n": 2,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Soleadify",
+  "n": 2,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Kobai",
+  "n": 2,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "NCSolutions",
+  "n": 2,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Veraset",
+  "n": 2,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "International-Monetary-Fund",
+  "n": 2,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Consensus-Economics",
+  "n": 2,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Credit-Benchmark",
+  "n": 2,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "GMG",
+  "n": 2,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Helios-Life-Enterprises",
+  "n": 2,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Caden",
+  "n": 2,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Bond-Brand-Loyalty",
+  "n": 2,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "OLAPTrader",
+  "n": 2,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Smart-Insider",
+  "n": 2,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "WMBA",
+  "n": 2,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Kaze-Consulting",
+  "n": 2,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "MOSTLY-AI",
+  "n": 2,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Porch-Group-Media-Formerly-V12",
+  "n": 2,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "ICE-Fixed-Income-Data-Services",
+  "n": 1,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "LSEG",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Plugindata",
+  "n": 1,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "Onclusive",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "FlashIntel",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Lend-Rx-Technology",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "NLPify-Data-Technologies",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "BCMstrategy-Inc-",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Helios-Artificial-Intelligence",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Engine",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Narrative-I-O",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "BrightQuery",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Stocktwits",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "LinkUp",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Live-Data-Technologies",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Net-One-Systems-Co-Ltd-",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Contratos-EPM",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "DeductibleData-Co",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Fantastic-Enterprises-Inc-",
+  "n": 1,
+  "sample_pct": 100.0
+ },
+ {
+  "vendor": "unerry-Inc-",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Datavant",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Prospection",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Ontada",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "YipitData",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Divirod-Inc-",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "ExtractAlpha",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "MILIZE-Inc-",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Amperity",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Outra",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Silent-Push",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Tego-Cyber-Inc-",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Spatial-Risk-Systems",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Circana-fka-IRI-",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "LiveRamp",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "S-P-Global-Market-Intelligence",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "MaaS-Tech-Japan-inc-",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "S-P-Global-Mobility",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Symmetric-Information-LLC",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "The-Organisation-for-Economic-Co-operation-and-Development",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "ShareThis",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Sucali",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Pingahla-Inc",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Blockfills",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Addepto",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "AtScale-Inc-",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Allium-Labs-Inc-",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Speedeon-Data",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Commerce-Signals",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "OLA-Krutrim",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Habu-Inc-",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "CMD-RVL",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Consumer-Financial-Protection-Bureau",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Bloomberg-Government",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "US-Geological-Survey",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Veritas-Data-Research-Inc-",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Facteus-Inc-",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Ribbon-Health",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Shaip",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "MatchbookAI",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "SalesIntel",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Prosper-Insights-Analytics",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "ClearScore",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "SMARTe-INC",
+  "n": 1,
+  "sample_pct": 0.0
+ },
+ {
+  "vendor": "Commodity-Futures-Trading-Commission",
+  "n": 1,
+  "sample_pct": 0.0
+ }
+]
