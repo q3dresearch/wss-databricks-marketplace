@@ -48,16 +48,20 @@ the URL, not on the page — so subject is inferred from the product name.
 
 ![The depth is in health data. The B2B listings are mostly teasers.](examples/charts/subjects.svg)
 
-| subject | listings | samples | real products |
-| --- | ---: | ---: | ---: |
-| Health & life science | 241 | 13% | **209** |
-| Consumer & identity | 296 | 68% | **96** |
-| Financial & market | 146 | 50% | **73** |
-| Location & mobility | 280 | 82% | **51** |
-| Web & technology | 119 | 62% | **45** |
-| Business & firmographic | 329 | 91% | **30** |
-| Real estate & property | 90 | 70% | **27** |
-| Weather & environment | 35 | 43% | **20** |
+| subject | listings | samples | real products | vendors | largest vendor |
+| --- | ---: | ---: | ---: | ---: | --- |
+| Health & life science | 241 | 13% | **209** | 24 | John-Snow-Labs 76% |
+| Consumer & identity | 308 | 68% | **97** | 23 | Geolocet-LTD 60% |
+| Web & technology | 129 | 63% | **48** | 15 | Databricks 54% |
+| Financial & market | 114 | 59% | **47** | 23 | Rearc 23% |
+| Business & firmographic | 334 | 91% | **30** | 15 | Exchange-Data-International 17% |
+| Location & mobility | 281 | 90% | **28** | 12 | Geolocet-LTD 32% |
+| Weather & environment | 38 | 40% | **23** | 10 | S-P-Global-Commodity-Insights 26% |
+| Real estate & property | 63 | 68% | **20** | 5 | CoreLogic 50% |
+| Retail & product | 29 | 41% | **17** | 11 | Crisp-Inc- 24% |
+| Social & creator | 75 | 80% | **15** | 3 | Bright-Data 73% |
+| Automotive | 55 | 86% | **8** | 5 | Rearc 38% |
+| News & media | 21 | 86% | **3** | 3 | FiscalNote 33% |
 
 **The listing count points at the wrong aisle.** Business & firmographic is the largest
 subject by listings and **91% of it is samples**, leaving 30 real products. Health & life
@@ -66,8 +70,30 @@ one vendor, John-Snow-Labs.
 
 The taxonomy is regular expressions applied first-match in a fixed order. Both the patterns
 and the order are a judgement, published in
-[`public/subjects-2026-09-25.json`](public/subjects-2026-09-25.json). **494 listings (22%)
+[`public/subjects-2026-09-25.json`](public/subjects-2026-09-25.json). **523 listings (24%)
 match no rule** and are left out of the chart rather than forced into a bucket.
+
+## Who else can sell it to you
+
+A listing count says how much is on the shelf. It does not say how many people
+stock it, and those two rank almost oppositely here.
+
+![The deepest aisle in the store is one vendor's shelf.](examples/charts/supplier-depth.svg)
+
+**Health & life science is the deepest subject and the most captive one.** It holds
+209 real products, more than any other, and **76% of them are sold by
+John-Snow-Labs**. If that one vendor raises its price or leaves, roughly
+50 products remain across the other
+23 vendors.
+
+**Business & firmographic is the opposite.** Only 30 real products, but spread over
+15 vendors with the largest at **17%** — the widest supplier choice
+on the platform. Social & creator is the worst of both: 15 products from
+3 vendors, 73% of them Bright-Data.
+
+Four of twelve subjects are majority-held by a single vendor. Samples are excluded
+throughout — a trial dataset is not a second source. The per-subject numbers are in
+[`public/supplier-depth-2026-09-25.json`](public/supplier-depth-2026-09-25.json).
 
 ## Sampling is a vendor posture, not a product decision
 
@@ -102,13 +128,13 @@ weekly capture is for.
 | # | Question | Status |
 | --- | --- | --- |
 | Q1 | What is this marketplace actually made of? | **answered** — 60.1% samples, 882 real products, 226 vendors |
-| Q8 | If I need category X, how many vendors can actually sell it to me? | **answered** — see `public/supplier-depth`. Listing count and supplier depth rank almost oppositely: Health has 209 real products but 76.1% come from one vendor; Business & firmographic has 30 across 15 vendors, top one at 16.7% |
 | Q2 | Which data products are withdrawn, and when? | needs 2+ captures. **The reason for capturing** |
 | Q3 | Do samples convert to products, or just churn? | open — a sample becoming a product is a name change, so it will look like one death and one birth |
 | Q4 | Do whole vendors exit? | open — vendor is free from the URL, so this is answerable from two captures |
 | Q5 | How long does a listing survive? | needs ~1 year. Of 3 Internet Archive mementos **one is the live page served back**, leaving two real observations — retention of 94.3% from 2023-06 and 82.3% from 2024-04, which is not a curve |
 | Q6 | Is there any usage or popularity signal? | **answered — no.** Nothing anywhere publishes one |
 | Q7 | Can we see a sample's fields, row count or update frequency? | **answered — not anonymously.** `/api/2.0/marketplace-consumer/listings` returns **401, not 404**, so the endpoint exists and needs a Databricks identity. `Allow: /open-marketplace` in robots leads only to the same SPA shell |
+| Q8 | If I need category X, how many vendors can actually sell it to me? | **answered** — see `public/supplier-depth`. Listing count and supplier depth rank almost oppositely: Health has 209 real products but 76.1% come from one vendor; Business & firmographic has 30 across 15 vendors, top one at 16.7% |
 
 ## The URL carries everything the page does not
 
