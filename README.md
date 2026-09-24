@@ -125,6 +125,11 @@ weekly capture is for.
 
 ## Questions this exists to answer
 
+![4 of 8 questions are answered now; 2 wait on the capture; 2 are not on a clock at all.](examples/charts/maturity.svg)
+
+**4 of these 8 are answered from captures already held.** 2 become answerable only as the series lengthens — the plate shows when. The remaining 2 are not on a clock: they need a method, or a field this source does not publish, and waiting produces neither. That distinction is the one a reader cannot make from a table of open questions.
+
+
 | # | Question | Status |
 | --- | --- | --- |
 | Q1 | What is this marketplace actually made of? | **answered** — 60.1% samples, 882 real products, 226 vendors |
