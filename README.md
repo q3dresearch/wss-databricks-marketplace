@@ -101,6 +101,7 @@ weekly capture is for.
 | Q4 | Do whole vendors exit? | open — vendor is free from the URL, so this is answerable from two captures |
 | Q5 | How long does a listing survive? | needs ~1 year. Of 3 Internet Archive mementos **one is the live page served back**, leaving two real observations — retention of 94.3% from 2023-06 and 82.3% from 2024-04, which is not a curve |
 | Q6 | Is there any usage or popularity signal? | **answered — no.** Nothing anywhere publishes one |
+| Q7 | Can we see a sample's fields, row count or update frequency? | **answered — not anonymously.** `/api/2.0/marketplace-consumer/listings` returns **401, not 404**, so the endpoint exists and needs a Databricks identity. `Allow: /open-marketplace` in robots leads only to the same SPA shell |
 
 ## The URL carries everything the page does not
 

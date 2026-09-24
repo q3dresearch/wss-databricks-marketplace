@@ -31,6 +31,22 @@ notes: >-
   while they were still live. That was wrong and came from generalising a single
   URL that happened to end in a trailing slash. No name resolution is needed.
 
+  FIELDS, ROW COUNTS AND SCHEMA ARE BEHIND AUTH, AND THAT WAS ESTABLISHED RATHER
+  THAN ASSUMED. Checked 2026-09-25: robots names exactly one path,
+  `Allow: /open-marketplace`, which returns the same 58 KB SPA shell as every
+  other path -- the shell is served for /open-marketplace, /open-marketplace/api
+  and an unrelated path alike. The real endpoint is
+  /api/2.0/marketplace-consumer/listings and it answers **401, not 404**, so it
+  EXISTS and requires a Databricks identity. /api/2.1/unity-catalog/public/
+  listings is a genuine 404.
+
+  So no dataset field list, column count, row count or update frequency is
+  obtainable anonymously, for samples or for products. A Databricks workspace
+  account would reach the consumer API; this repo deliberately holds no
+  credential and captures only what is public. What CAN be said about a sample
+  is that it exists, when it appeared and when it left -- which is what the
+  sitemap gives.
+
   THE DETAIL PAGE IS WORTHLESS, AND UNUSUALLY SO. 58,299 chars with <title>
   Databricks Marketplace, no og:title, no h1, no meta description and no JSON-LD
   -- its only embedded JSON is FEATURE FLAGS. Not one field about the product.
