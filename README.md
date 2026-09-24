@@ -132,14 +132,14 @@ weekly capture is for.
 
 | # | Question | Status |
 | --- | --- | --- |
-| Q1 | What is this marketplace actually made of? | **answered** — 60.1% samples, 882 real products, 226 vendors |
+| Q1 | What is this marketplace actually made of? | **answered** — 60.1% samples, 882 real products, 226 vendors → [composition](examples/charts/composition.svg) |
 | Q2 | Which data products are withdrawn, and when? | needs 2+ captures. **The reason for capturing** |
 | Q3 | Do samples convert to products, or just churn? | open — a sample becoming a product is a name change, so it will look like one death and one birth |
 | Q4 | Do whole vendors exit? | open — vendor is free from the URL, so this is answerable from two captures |
 | Q5 | How long does a listing survive? | needs ~1 year. Of 3 Internet Archive mementos **one is the live page served back**, leaving two real observations — retention of 94.3% from 2023-06 and 82.3% from 2024-04, which is not a curve |
-| Q6 | Is there any usage or popularity signal? | **answered — no.** Nothing anywhere publishes one |
-| Q7 | Can we see a sample's fields, row count or update frequency? | **answered — not anonymously.** `/api/2.0/marketplace-consumer/listings` returns **401, not 404**, so the endpoint exists and needs a Databricks identity. `Allow: /open-marketplace` in robots leads only to the same SPA shell |
-| Q8 | If I need category X, how many vendors can actually sell it to me? | **answered** — see `public/supplier-depth`. Listing count and supplier depth rank almost oppositely: Health has 209 real products but 76.1% come from one vendor; Business & firmographic has 30 across 15 vendors, top one at 16.7% |
+| Q6 | Is there any usage or popularity signal? | **answered — no.** Nothing anywhere publishes one. *No figure: this is a field that does not exist, not a distribution* |
+| Q7 | Can we see a sample's fields, row count or update frequency? | **answered — not anonymously.** `/api/2.0/marketplace-consumer/listings` returns **401, not 404**, so the endpoint exists and needs a Databricks identity. `Allow: /open-marketplace` in robots leads only to the same SPA shell. *No figure: the answer is one HTTP status against another and there is no quantity to draw* |
+| Q8 | If I need category X, how many vendors can actually sell it to me? | **answered** — [supplier depth](examples/charts/supplier-depth.svg). Listing count and supplier depth rank almost oppositely: Health has 209 real products but 76.1% come from one vendor; Business & firmographic has 30 across 15 vendors, top one at 16.7% |
 
 ## The URL carries everything the page does not
 
