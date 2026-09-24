@@ -1,0 +1,147 @@
+{
+ "total": 2211,
+ "real": 920,
+ "categories": [
+  {
+   "name": "Unclassified",
+   "n": 494,
+   "share": 22.3,
+   "sample_pct": 34.0,
+   "real": 326
+  },
+  {
+   "name": "Business & firmographic",
+   "n": 329,
+   "share": 14.9,
+   "sample_pct": 90.9,
+   "real": 30
+  },
+  {
+   "name": "Consumer & identity",
+   "n": 296,
+   "share": 13.4,
+   "sample_pct": 67.6,
+   "real": 96
+  },
+  {
+   "name": "Location & mobility",
+   "n": 280,
+   "share": 12.7,
+   "sample_pct": 81.8,
+   "real": 51
+  },
+  {
+   "name": "Health & life science",
+   "n": 241,
+   "share": 10.9,
+   "sample_pct": 13.3,
+   "real": 209
+  },
+  {
+   "name": "Financial & market",
+   "n": 146,
+   "share": 6.6,
+   "sample_pct": 50.0,
+   "real": 73
+  },
+  {
+   "name": "Web & technology",
+   "n": 119,
+   "share": 5.4,
+   "sample_pct": 62.2,
+   "real": 45
+  },
+  {
+   "name": "Real estate & property",
+   "n": 90,
+   "share": 4.1,
+   "sample_pct": 70.0,
+   "real": 27
+  },
+  {
+   "name": "Social & creator",
+   "n": 75,
+   "share": 3.4,
+   "sample_pct": 80.0,
+   "real": 15
+  },
+  {
+   "name": "Automotive",
+   "n": 55,
+   "share": 2.5,
+   "sample_pct": 85.5,
+   "real": 8
+  },
+  {
+   "name": "Weather & environment",
+   "n": 35,
+   "share": 1.6,
+   "sample_pct": 42.9,
+   "real": 20
+  },
+  {
+   "name": "Retail & product",
+   "n": 30,
+   "share": 1.4,
+   "sample_pct": 43.3,
+   "real": 17
+  },
+  {
+   "name": "News & media",
+   "n": 21,
+   "share": 0.9,
+   "sample_pct": 85.7,
+   "real": 3
+  }
+ ],
+ "rules": [
+  {
+   "name": "Health & life science",
+   "pattern": "drug|clinical|medical|patient|health|\\bndc\\b|pharma|\\bicd\\b|snomed|rxnorm|biomed|cancer|oncolog|disease|ingredient|gene|protein|anatom|diagnos|adverse|trial|loinc|umls|mesh|specialt|physician|hospital|nurse|dental|vaccin|therap"
+  },
+  {
+   "name": "Financial & market",
+   "pattern": "market-data|equity|stock|bond|\\betf\\b|fund|trading|forex|commodit|exchange|earnings|\\bsec-|eurex|open-interest|price-index|credit|invest|portfolio|dividend|currenc|crypto|financial"
+  },
+  {
+   "name": "Real estate & property",
+   "pattern": "real-estate|propert|parcel|\\brent\\b|mortgage|housing|building-footprint|realtor|construction|listing-price"
+  },
+  {
+   "name": "Automotive",
+   "pattern": "automotive|vehicle|\\bcar\\b|\\bcars\\b|\\bvin\\b|dealership|fleet|truck"
+  },
+  {
+   "name": "Social & creator",
+   "pattern": "social|linkedin|youtube|twitter|instagram|tiktok|facebook|reddit|creator|influencer|follower|podcast|\\bpost\\b|review"
+  },
+  {
+   "name": "News & media",
+   "pattern": "\\bnews\\b|article|\\brss\\b|publisher|media-monitor|press|headline|journal"
+  },
+  {
+   "name": "Location & mobility",
+   "pattern": "\\bpoi\\b|point-of-interest|geospatial|visitation|foot-traffic|mobility|geolocat|location|places|latitud|polygon|footfall|geograph|\\bmap\\b|address|postal|zip|region"
+  },
+  {
+   "name": "Consumer & identity",
+   "pattern": "consumer|demographic|household|\\bpeople\\b|contact|email|identity|\\bmaid\\b|audience|\\bb2c\\b|person|shopper|lifestyle"
+  },
+  {
+   "name": "Business & firmographic",
+   "pattern": "\\bb2b\\b|firmograph|compan|business|employer|employee|industry-classif|technograph|\\bsic\\b|\\bnaics\\b|revenue|executive|decision-maker|\\bceo\\b|corporate"
+  },
+  {
+   "name": "Web & technology",
+   "pattern": "\\bweb\\b|website|domain|\\bapp\\b|software|traffic|\\bapi\\b|scraping|\\bnlp\\b|\\bai\\b|\\bml\\b|model|embedding|entity|extract|classif|recogni"
+  },
+  {
+   "name": "Retail & product",
+   "pattern": "retail|\\bsku\\b|product-catalog|ecommerce|e-commerce|price-monitor|inventor|merchant|brand|grocer"
+  },
+  {
+   "name": "Weather & environment",
+   "pattern": "weather|climate|environment|emission|carbon|pollut|energy|solar|wind|water|agricult|crop|satellite"
+  }
+ ]
+}
