@@ -1,2 +1,2 @@
 source_id,first_success_at,last_success_at,last_attempt_at,consecutive_failures,consecutive_throttled,expected_interval_h,staleness_h,gate_fail_rate_28d,attempts_28d,status
-databricks.marketplace.listings,2026-09-24T18:25:34Z,2026-09-24T18:25:34Z,2026-09-24T18:25:34Z,0,0,168,0.0,0.000,1,active
+databricks.marketplace.listings,2026-09-24T18:25:34Z,2026-10-01T13:02:22Z,2026-10-01T13:02:22Z,0,0,168,110.3,0.000,2,active
