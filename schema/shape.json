@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T13:19:06Z",
+  "generated_at": "2026-10-15T11:19:24Z",
   "note": "Inferred from the derived rows by `wss schema`, not hand-written. Regenerate after any derive.",
   "sources": {
     "databricks.marketplace.listings": {
@@ -15,7 +15,7 @@
     }
   },
   "observations": {
-    "rows": 23886,
+    "rows": 31848,
     "columns": [
       "series_id",
       "entity_id",
@@ -34,7 +34,7 @@
     ],
     "series": {
       "databricks.marketplace.listings": {
-        "rows": 23886,
+        "rows": 31848,
         "entities": 2211,
         "entity_id_samples": [
           "0006d848-2ebc-488e-8297-55d98d6b7748",
@@ -55,7 +55,7 @@
   },
   "metrics": {
     "is_sample": {
-      "rows": 3987,
+      "rows": 5316,
       "unit": "",
       "type": "text",
       "series": [
@@ -69,7 +69,7 @@
       ]
     },
     "listed": {
-      "rows": 6633,
+      "rows": 8844,
       "unit": "count",
       "type": "bool",
       "series": [
@@ -83,7 +83,7 @@
       ]
     },
     "listing_name": {
-      "rows": 6633,
+      "rows": 8844,
       "unit": "",
       "type": "text",
       "series": [
@@ -99,7 +99,7 @@
       ]
     },
     "vendor": {
-      "rows": 6633,
+      "rows": 8844,
       "unit": "",
       "type": "text",
       "series": [
@@ -118,8 +118,8 @@
   "raw": {
     "files": 1,
     "bytes_on_disk": 118163,
-    "capture_dates": 3,
+    "capture_dates": 4,
     "first_capture": "2026-09-24T18:25:34Z",
-    "last_capture": "2026-10-08T13:19:03Z"
+    "last_capture": "2026-10-15T11:19:21Z"
   }
 }
