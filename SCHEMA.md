@@ -1,12 +1,12 @@
 # Data shape
 
-*Generated 2026-10-29T12:50:55Z by `wss schema` from the derived rows. Do not hand-edit — regenerate after any derive.*
+*Generated 2026-11-05T14:31:00Z by `wss schema` from the derived rows. Do not hand-edit — regenerate after any derive.*
 
 **You should not need to download anything to read this.**
 
-- **47,772 observations** across 2 partition(s), in **1 series**
-  - `databricks.marketplace.listings` — 47,772 rows, **2211 entities**
-- Raw: 1 file(s), 118,163 bytes on disk, 6 capture date(s), 2026-09-24 → 2026-10-29
+- **55,734 observations** across 3 partition(s), in **1 series**
+  - `databricks.marketplace.listings` — 55,734 rows, **2211 entities**
+- Raw: 1 file(s), 118,163 bytes on disk, 7 capture date(s), 2026-09-24 → 2026-11-05
 
 ## Sources
 
@@ -26,12 +26,13 @@ series_id, entity_id, observed_at, captured_at, metric, value, unit, source_id, 
 
 | metric | series | rows | entities | type | unit | distinct | range / samples |
 | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| `is_sample` | databricks.marketplace.listings | 7,974 | 1329 | text |  | 1 | `true` |
-| `listed` | databricks.marketplace.listings | 13,266 | 2211 | bool | count | 1 | `1` |
-| `listing_name` | databricks.marketplace.listings | 13,266 | 2211 | text |  | 2193 | `APISCRAPY_-SAMPLE-Amazon`, `APISCRAPY_-SAMPLE-B2B-Ma`, `APISCRAPY_-SAMPLE-Best-W` |
-| `vendor` | databricks.marketplace.listings | 13,266 | 2211 | text |  | 226 | `APISCRAPY`, `AWIS-Weather-Services`, `AccuWeather` |
+| `is_sample` | databricks.marketplace.listings | 9,303 | 1329 | text |  | 1 | `true` |
+| `listed` | databricks.marketplace.listings | 15,477 | 2211 | bool | count | 1 | `1` |
+| `listing_name` | databricks.marketplace.listings | 15,477 | 2211 | text |  | 2193 | `APISCRAPY_-SAMPLE-Amazon`, `APISCRAPY_-SAMPLE-B2B-Ma`, `APISCRAPY_-SAMPLE-Best-W` |
+| `vendor` | databricks.marketplace.listings | 15,477 | 2211 | text |  | 226 | `APISCRAPY`, `AWIS-Weather-Services`, `AccuWeather` |
 
 ## Partitions
 
 - `derived/observations/2026-09.csv.gz`
 - `derived/observations/2026-10.csv.gz`
+- `derived/observations/2026-11.csv.gz`
