@@ -1,12 +1,12 @@
 # Data shape
 
-*Generated 2026-11-05T14:31:00Z by `wss schema` from the derived rows. Do not hand-edit — regenerate after any derive.*
+*Generated 2026-11-12T15:02:08Z by `wss schema` from the derived rows. Do not hand-edit — regenerate after any derive.*
 
 **You should not need to download anything to read this.**
 
-- **55,734 observations** across 3 partition(s), in **1 series**
-  - `databricks.marketplace.listings` — 55,734 rows, **2211 entities**
-- Raw: 1 file(s), 118,163 bytes on disk, 7 capture date(s), 2026-09-24 → 2026-11-05
+- **63,696 observations** across 3 partition(s), in **1 series**
+  - `databricks.marketplace.listings` — 63,696 rows, **2211 entities**
+- Raw: 1 file(s), 118,163 bytes on disk, 8 capture date(s), 2026-09-24 → 2026-11-12
 
 ## Sources
 
@@ -26,10 +26,10 @@ series_id, entity_id, observed_at, captured_at, metric, value, unit, source_id, 
 
 | metric | series | rows | entities | type | unit | distinct | range / samples |
 | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| `is_sample` | databricks.marketplace.listings | 9,303 | 1329 | text |  | 1 | `true` |
-| `listed` | databricks.marketplace.listings | 15,477 | 2211 | bool | count | 1 | `1` |
-| `listing_name` | databricks.marketplace.listings | 15,477 | 2211 | text |  | 2193 | `APISCRAPY_-SAMPLE-Amazon`, `APISCRAPY_-SAMPLE-B2B-Ma`, `APISCRAPY_-SAMPLE-Best-W` |
-| `vendor` | databricks.marketplace.listings | 15,477 | 2211 | text |  | 226 | `APISCRAPY`, `AWIS-Weather-Services`, `AccuWeather` |
+| `is_sample` | databricks.marketplace.listings | 10,632 | 1329 | text |  | 1 | `true` |
+| `listed` | databricks.marketplace.listings | 17,688 | 2211 | bool | count | 1 | `1` |
+| `listing_name` | databricks.marketplace.listings | 17,688 | 2211 | text |  | 2193 | `APISCRAPY_-SAMPLE-Amazon`, `APISCRAPY_-SAMPLE-B2B-Ma`, `APISCRAPY_-SAMPLE-Best-W` |
+| `vendor` | databricks.marketplace.listings | 17,688 | 2211 | text |  | 226 | `APISCRAPY`, `AWIS-Weather-Services`, `AccuWeather` |
 
 ## Partitions
 
